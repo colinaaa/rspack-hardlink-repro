@@ -1,0 +1,15 @@
+{
+  "name": "webpack",
+  "private": true,
+  "type": "module",
+  "exports": "./index.ts",
+  "scripts": {
+    "build": "webpack && node dist/main.js"
+  },
+  "dependencies": {
+    "webpack-cli": "^5.1.4",
+    "webpack": "^5.90.3",
+    "a": "workspace:*",
+    "b": "workspace:*"
+  }
+}

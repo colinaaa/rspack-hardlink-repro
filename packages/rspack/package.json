@@ -1,0 +1,14 @@
+{
+  "name": "rspack",
+  "private": true,
+  "exports": "./index.ts",
+  "scripts": {
+    "build": "rspack && node dist/main.js"
+  },
+  "dependencies": {
+    "@rspack/cli": "^0.5.7",
+    "@rspack/core": "^0.5.7",
+    "a": "workspace:*",
+    "b": "workspace:*"
+  }
+}
