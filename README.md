@@ -3,7 +3,7 @@ Repro of https://github.com/web-infra-dev/rspack/issues/5912 and https://github.
 Run:
 
 ```bash
+pnpm --prefix packages/b install
 pnpm install
-pnpm --prefix packages/b
 pnpm --filter webpack --filter rspack build
 ```
